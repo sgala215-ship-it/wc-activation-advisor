@@ -1,0 +1,51 @@
+sponsor_name,category,tier,contract_value_usd,phase,brand_lift_pct,fan_engagement_score,roi_multiple,social_impressions_m,renewal_probability,activation_quality
+Apex Auto Group,Automotive,Presenting,8500000,Pre-Tournament,5.8,30.6,1.04,29.7,0.64,Excellent
+Apex Auto Group,Automotive,Presenting,8500000,During Tournament,32.2,65.9,2.26,24.5,0.8,Good
+Apex Auto Group,Automotive,Presenting,8500000,Post-Tournament (30d),23.5,67.4,1.88,11.8,0.75,Excellent
+Apex Auto Group,Automotive,Presenting,8500000,Post-Tournament (60d),15.3,43.5,1.4,9.4,0.61,Average
+Apex Auto Group,Automotive,Presenting,8500000,Post-Tournament (90d),3.9,38.4,1.08,11.3,0.54,Excellent
+GlobalBank,Financial Svcs,Presenting,7200000,Pre-Tournament,6.4,43.4,1.39,22.5,0.68,Average
+GlobalBank,Financial Svcs,Presenting,7200000,During Tournament,31.9,84.0,2.18,12.3,0.8,Excellent
+GlobalBank,Financial Svcs,Presenting,7200000,Post-Tournament (30d),25.7,71.1,1.84,33.5,0.75,Good
+GlobalBank,Financial Svcs,Presenting,7200000,Post-Tournament (60d),11.1,44.6,1.29,26.3,0.77,Good
+GlobalBank,Financial Svcs,Presenting,7200000,Post-Tournament (90d),7.8,35.4,1.13,37.1,0.52,Good
+SportsFuel Energy,FMCG/Beverage,Gold,4100000,Pre-Tournament,6.1,51.1,1.29,2.3,0.65,Average
+SportsFuel Energy,FMCG/Beverage,Gold,4100000,During Tournament,27.6,66.8,3.65,29.0,0.86,Good
+SportsFuel Energy,FMCG/Beverage,Gold,4100000,Post-Tournament (30d),22.5,60.7,2.32,11.3,0.76,Good
+SportsFuel Energy,FMCG/Beverage,Gold,4100000,Post-Tournament (60d),15.2,51.9,1.62,23.8,0.65,Average
+SportsFuel Energy,FMCG/Beverage,Gold,4100000,Post-Tournament (90d),5.0,51.9,1.15,2.8,0.47,Excellent
+TechVerse,Technology,Gold,3800000,Pre-Tournament,2.9,34.0,1.24,16.0,0.72,Below Average
+TechVerse,Technology,Gold,3800000,During Tournament,30.7,91.2,3.56,29.1,0.75,Average
+TechVerse,Technology,Gold,3800000,Post-Tournament (30d),24.3,59.5,1.76,1.1,0.69,Average
+TechVerse,Technology,Gold,3800000,Post-Tournament (60d),17.7,56.8,1.46,25.4,0.57,Good
+TechVerse,Technology,Gold,3800000,Post-Tournament (90d),4.4,46.8,1.17,21.7,0.64,Excellent
+NationAir,Travel/Airlines,Gold,3500000,Pre-Tournament,5.6,42.2,0.96,39.4,0.67,Average
+NationAir,Travel/Airlines,Gold,3500000,During Tournament,23.7,71.5,3.06,29.5,0.77,Excellent
+NationAir,Travel/Airlines,Gold,3500000,Post-Tournament (30d),27.6,63.7,1.61,37.9,0.8,Good
+NationAir,Travel/Airlines,Gold,3500000,Post-Tournament (60d),9.9,59.2,1.4,22.0,0.6,Good
+NationAir,Travel/Airlines,Gold,3500000,Post-Tournament (90d),9.4,38.8,1.24,36.1,0.54,Below Average
+HealthPlus Insurance,Insurance/Health,Silver,1900000,Pre-Tournament,2.7,35.6,1.07,10.0,0.72,Good
+HealthPlus Insurance,Insurance/Health,Silver,1900000,During Tournament,18.2,84.1,2.2,2.2,0.76,Average
+HealthPlus Insurance,Insurance/Health,Silver,1900000,Post-Tournament (30d),13.1,57.2,2.1,6.2,0.7,Below Average
+HealthPlus Insurance,Insurance/Health,Silver,1900000,Post-Tournament (60d),9.7,50.4,1.38,26.7,0.57,Average
+HealthPlus Insurance,Insurance/Health,Silver,1900000,Post-Tournament (90d),6.8,40.3,1.26,39.4,0.62,Excellent
+ProGear Apparel,Sporting Goods,Silver,1600000,Pre-Tournament,2.4,48.2,1.3,8.5,0.62,Below Average
+ProGear Apparel,Sporting Goods,Silver,1600000,During Tournament,21.4,70.0,2.89,3.9,0.92,Excellent
+ProGear Apparel,Sporting Goods,Silver,1600000,Post-Tournament (30d),12.8,74.0,2.25,37.1,0.87,Good
+ProGear Apparel,Sporting Goods,Silver,1600000,Post-Tournament (60d),8.8,50.7,1.25,3.3,0.64,Below Average
+ProGear Apparel,Sporting Goods,Silver,1600000,Post-Tournament (90d),3.0,38.6,1.36,12.1,0.65,Below Average
+QuickBite Foods,Food/Restaurant,Silver,1400000,Pre-Tournament,2.9,37.4,1.38,22.1,0.72,Average
+QuickBite Foods,Food/Restaurant,Silver,1400000,During Tournament,19.4,80.8,2.95,7.1,0.92,Excellent
+QuickBite Foods,Food/Restaurant,Silver,1400000,Post-Tournament (30d),25.6,53.5,1.56,16.7,0.85,Good
+QuickBite Foods,Food/Restaurant,Silver,1400000,Post-Tournament (60d),13.4,40.9,1.16,23.0,0.7,Average
+QuickBite Foods,Food/Restaurant,Silver,1400000,Post-Tournament (90d),11.4,34.5,1.26,16.4,0.51,Average
+MediaStream,Media/Streaming,Bronze,850000,Pre-Tournament,4.7,53.2,1.37,25.2,0.6,Excellent
+MediaStream,Media/Streaming,Bronze,850000,During Tournament,19.8,70.8,2.55,35.4,0.94,Good
+MediaStream,Media/Streaming,Bronze,850000,Post-Tournament (30d),17.9,55.5,2.25,24.9,0.81,Excellent
+MediaStream,Media/Streaming,Bronze,850000,Post-Tournament (60d),14.3,52.2,1.75,35.2,0.57,Average
+MediaStream,Media/Streaming,Bronze,850000,Post-Tournament (90d),4.0,32.4,1.18,24.6,0.52,Average
+BuildRight Realty,Real Estate,Bronze,720000,Pre-Tournament,3.2,45.9,1.03,36.3,0.7,Excellent
+BuildRight Realty,Real Estate,Bronze,720000,During Tournament,20.2,76.4,2.57,31.1,0.75,Average
+BuildRight Realty,Real Estate,Bronze,720000,Post-Tournament (30d),14.6,61.7,2.14,5.4,0.78,Good
+BuildRight Realty,Real Estate,Bronze,720000,Post-Tournament (60d),13.0,58.4,1.51,6.0,0.58,Average
+BuildRight Realty,Real Estate,Bronze,720000,Post-Tournament (90d),6.3,50.5,1.39,15.0,0.46,Good

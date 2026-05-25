@@ -1,0 +1,87 @@
+DOCUMENT: Fan Segmentation & Behavior — Post-Major-Tournament Patterns
+SOURCE: Synthesized from Nielsen Sports, Two Circles Fan Intelligence research, Repucom studies
+RELEVANCE: Core reference for fan intelligence mode and targeting strategy
+
+---
+
+FOUR PRIMARY FAN SEGMENTS ACQUIRED DURING WORLD CUPS
+
+Sports rights holders consistently identify four distinct audience cohorts that enter their databases during major international tournaments. Understanding these segments is essential for post-tournament activation prioritization.
+
+1. CONVERTED FANS
+Definition: Existing soccer followers who have now deepened their relationship with a specific rights holder or club.
+Characteristics: Already watch domestic soccer regularly, likely have attended a match before, familiar with the sport's rhythms. The World Cup moved them from passive observer to active prospect.
+Size (typical post-WC): 20–28% of new acquisitions
+Average predicted LTV: $350–$420 over 3 years
+Season ticket conversion rate: 30–40% with right activation
+Best activation window: 0–30 days. Urgency is critical — this segment has the highest conversion rate but also the fastest drop-off if not contacted.
+Recommended first touch: Direct offer (season tickets, premium membership) with World Cup-themed creative.
+
+2. LAPSED FANS
+Definition: Previously engaged fans who had gone dormant and were reactivated by the World Cup.
+Characteristics: May have attended matches or held a membership 2–5 years ago. The tournament reminded them why they loved the sport. High nostalgia factor. Often have children now and are considering family-friendly sporting options.
+Size (typical post-WC): 18–22% of new acquisitions
+Average predicted LTV: $195–$230 over 3 years
+Re-engagement conversion rate: 35–50% with personalized outreach
+Best activation window: 31–60 days. This segment needs time to warm up — a welcome sequence before a hard offer.
+Recommended first touch: Re-engagement email referencing their previous relationship. Nostalgia creative performs 40% better than generic content for this segment.
+
+3. CASUAL VIEWERS
+Definition: People who watched World Cup matches socially or with family but do not follow club soccer.
+Characteristics: Largest segment by volume. Low soccer IQ, high entertainment value. Motivated by the social/communal experience of watching, not tactical appreciation. Most likely to be watching because of national team narrative, not the sport itself.
+Size (typical post-WC): 32–38% of new acquisitions
+Average predicted LTV: $120–$165 over 3 years
+Conversion to club product: 10–18% with long nurture sequence
+Best activation window: 0–90 days with low-pressure content nurture. Hard sales pitches perform poorly. Content-first approach (behind the scenes, player stories, match highlights) builds affinity before commercial asks.
+Recommended first touch: Welcome content series. Social media retargeting. Build the relationship over 8–12 weeks before ticket/membership offer.
+
+4. NEW TO SOCCER FANS
+Definition: Genuinely new to the sport, often inspired by host-nation narrative or social contagion.
+Characteristics: Youngest demographic on average (skews 18–34). Highest digital engagement. Did not grow up watching soccer and have no club allegiance yet. The most valuable long-term opportunity because they can be shaped from scratch.
+Size (typical post-WC): 18–24% of new acquisitions
+Average predicted LTV: $80–$110 over 3 years (but highest upside with proper cultivation)
+Conversion horizon: 6–18 months — cannot be rushed
+Best activation window: Immediate education content, then slow build. Youth and family programming outperforms for this segment.
+Recommended first touch: "Welcome to soccer" educational content. Club origin stories. Youth/grassroots tie-ins. Think of this as brand-building, not direct conversion.
+
+---
+
+FAN ACQUISITION CHANNEL PERFORMANCE (POST-TOURNAMENT)
+
+Digital advertising: Highest volume, moderate quality. CPMs spike 60–80% during tournament. Recommend shifting budget to retargeting post-final when CPMs normalize.
+Social media organic: Highest engagement rate for content. Reels/short video outperforms static for soccer content by 3–4x.
+Email campaign (warm list): Highest conversion rate for existing partial-data contacts. Open rates 35–55% during tournament window.
+Partner referral: Highest average LTV of any channel ($240+ average). Sponsor co-registration programs are the most underutilized acquisition tactic.
+In-stadium: Highest conversion rate to season tickets (2–3x digital). Limited by match attendance capacity but highly valuable per-touch.
+
+---
+
+CHURN RISK INDICATORS (POST-TOURNAMENT)
+
+High churn risk signals (flag for intervention):
+- No email open in 21+ days post-acquisition
+- App downloaded but no sessions in 14+ days
+- Only engaged with national team content, no club content
+- Acquired during group stage only (no knockout engagement)
+- Age 45+ with no prior purchase history
+
+Low churn risk signals (investment priority):
+- Opened 3+ emails in first 30 days
+- Attended a match or venue event during tournament
+- Clicked on season ticket or membership content
+- Follows club social accounts organically
+- Has children (family segment — high LTV)
+
+---
+
+BEHAVIORAL ECONOMICS OF POST-TOURNAMENT FAN CAPTURE
+
+Three psychological windows matter for rights holders:
+
+PEAK WINDOW (0–14 days post-final): Emotional residue is highest. Fans are still in "soccer mode." Any activation landing in this window gets disproportionate attention. This is the single most valuable marketing window in the sports calendar for soccer properties.
+
+TRANSITION WINDOW (15–45 days): Domestic season is resuming. New fans are deciding whether soccer is "their sport" or a one-time event. Experiential tactics (free match tickets, stadium tours, open training access) perform 60% better than digital-only during this period.
+
+SETTLING WINDOW (46–90 days): Habits are forming. Fans who are still engaged at day 90 have dramatically higher retention rates. Nielsen data suggests 70%+ of 90-day-retained World Cup fans remain engaged 3 years later.
+
+---

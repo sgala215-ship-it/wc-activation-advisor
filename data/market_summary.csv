@@ -1,0 +1,13 @@
+market,total_fans_acquired,pct_email_opted_in,pct_app_downloaded,avg_engagement_score,avg_predicted_ltv_usd,pct_high_churn_risk,top_segment,top_acquisition_channel,season_ticket_conversion_rate
+New York,9026,70.7,43.6,54.9,205.65,26.7,Casual Viewer,Digital Ad,39.4
+Los Angeles,8018,71.2,44.8,55.3,204.72,27.3,Casual Viewer,Digital Ad,39.1
+Chicago,4853,71.0,44.2,55.0,204.48,26.7,Casual Viewer,Digital Ad,40.5
+Houston,4518,71.4,43.3,54.4,204.62,27.1,Casual Viewer,Digital Ad,40.2
+Miami,4013,70.9,46.0,55.0,205.51,26.4,Casual Viewer,Digital Ad,40.1
+Dallas,3526,70.5,44.2,54.8,205.35,27.2,Casual Viewer,Digital Ad,40.0
+San Francisco,3032,71.3,44.5,54.5,204.68,26.4,Casual Viewer,Digital Ad,39.3
+Boston,2523,71.3,43.5,54.9,206.31,26.6,Casual Viewer,Digital Ad,40.9
+Seattle,2557,71.8,43.4,55.1,205.26,27.5,Casual Viewer,Digital Ad,40.3
+Atlanta,2072,70.8,42.8,55.1,206.64,28.3,Casual Viewer,Digital Ad,38.4
+Denver,1980,72.3,42.2,55.4,202.52,27.3,Casual Viewer,Digital Ad,39.8
+Other,3882,71.6,43.4,55.0,203.56,26.1,Casual Viewer,Digital Ad,40.4

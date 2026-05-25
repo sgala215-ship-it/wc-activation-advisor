@@ -1,0 +1,148 @@
+DOCUMENT: Post-World Cup Activation Playbook — Rights Holders & League Offices
+SOURCE: Synthesized from Two Circles activation guides, MLS post-2022 learnings, UEFA activation frameworks
+RELEVANCE: Strategy and campaign ideation modes — core tactical reference
+
+---
+
+THE 90-DAY ACTIVATION FRAMEWORK
+
+Rights holders have a defined commercial window post-tournament. The urgency is real: fan attention, sponsor goodwill, and media narrative all decay within 90 days if not captured. The following framework structures the activation calendar.
+
+PHASE 1: PEAK CAPTURE (Days 0–30)
+Objective: Convert emotional peak into commercial relationships before attention normalizes.
+Mindset: Move fast. Every day of delay costs conversion rate.
+
+Priority actions:
+- Deploy welcome sequence to all new acquisitions within 72 hours of final whistle
+- Launch season ticket early-bird campaign for Converted Fans and Lapsed Fans immediately
+- Initiate sponsor renewal conversations — schedule C-suite debrief meetings within 2 weeks of final
+- Publish post-tournament fan report for internal stakeholders and sponsors (data-led, narrative-driven)
+- Activate co-branded content with sponsors while brand recall is at peak
+
+KPIs to track: Email open rate (target 38–45%), new member sign-ups (target 15% of acquired base), sponsor renewal meetings scheduled (target 80% of tier-1 sponsors within 30 days).
+
+PHASE 2: RELATIONSHIP DEEPENING (Days 31–60)
+Objective: Convert early engagement into durable behavioral habits.
+Mindset: Slow down. Build the relationship before the next ask.
+
+Priority actions:
+- Launch domestic season with explicit "World Cup momentum" narrative in all marketing
+- Deploy lapsed fan re-engagement sequence — personalized, referencing their previous relationship
+- Deliver sponsor brand lift and ROI reports — make the data the conversation starter for renewal
+- Run experiential activations: open training sessions, behind-the-scenes content, fan meetups
+- Launch merchandise campaign — limited edition World Cup commemorative items drive urgency
+
+KPIs to track: 30-day retention rate (target 65%+), average email engagement score, match attendance lift vs. prior season equivalent, sponsor renewal rate (target 70%+ of presenting/gold by day 60).
+
+PHASE 3: HABIT FORMATION (Days 61–90)
+Objective: Lock in the fans who are still engaged — they are now high-value long-term assets.
+Mindset: The fans still with you at day 90 are yours. Treat them accordingly.
+
+Priority actions:
+- Launch loyalty program enrollment campaign for engaged fans
+- Begin MLS club partnership upsell conversations (for federation-level rights holders)
+- Execute churn-risk intervention for high-risk cohort — personal outreach, special offer, survey
+- Deliver 90-day post-tournament commercial report to board/leadership
+- Begin planning next commercial cycle using World Cup data as baseline
+
+KPIs to track: 90-day retention rate (target 45%+), loyalty program enrollment, club partnership revenue pipeline, churn intervention conversion rate.
+
+---
+
+CAMPAIGN IDEATION BY SEGMENT
+
+FOR CONVERTED FANS (highest immediate value):
+Campaign theme: "Your season starts now"
+Channel mix: Email (primary), push notification, social retargeting
+Creative direction: Bold, direct, urgency-driven. Season ticket imagery. Player endorsement. Limited availability messaging.
+Offer: Early-bird season ticket pricing (10–15% discount for 14-day window)
+Email subject line examples:
+  - "You watched the World Cup. Now watch them every week."
+  - "Season tickets: exclusive early access for World Cup fans"
+  - "48 matches. One decision. [CLUB NAME] 2026–27 season."
+Expected open rate: 42–55%
+Expected conversion: 22–30%
+
+FOR LAPSED FANS (highest re-engagement opportunity):
+Campaign theme: "Welcome back. A lot has changed."
+Channel mix: Email, social media, potentially direct mail for high-LTV lapsed
+Creative direction: Nostalgic but forward-looking. Acknowledge the gap. Show what they've missed. No guilt, only invitation.
+Offer: Trial match experience (single game at a discount or complimentary) before membership ask
+Email subject line examples:
+  - "It's been a while. The World Cup brought you back — we'd love to keep you."
+  - "[NAME], remember when you used to come to [VENUE]?"
+  - "A lot has changed since you were last here. Come see."
+Expected open rate: 25–35%
+Expected conversion to trial: 35–45%
+Expected conversion to membership after trial: 55–65%
+
+FOR CASUAL VIEWERS (largest volume, longest conversion cycle):
+Campaign theme: "Soccer is more than a tournament"
+Channel mix: Social media (primary), email nurture, content marketing
+Creative direction: Entertainment-first. Behind-the-scenes access. Player personality content. Match day experience content. Zero commercial pressure for first 30 days.
+Content series ideas:
+  - "24 hours with [PLAYER NAME]" — lifestyle content
+  - "The stadium secrets" — venue walkthrough, history, culture
+  - "Why [CITY NAME] is a soccer city" — localized pride content
+  - "The moments that made the game" — historic highlights, emotional storytelling
+Expected email open rate: 22–32%
+Conversion to paid product: 10–18% over 90-day nurture cycle
+
+FOR NEW TO SOCCER FANS (longest horizon, highest upside):
+Campaign theme: "Your soccer journey starts here"
+Channel mix: Social media (dominant), YouTube, email
+Creative direction: Educational and welcoming. Never assume knowledge. Celebrate their curiosity.
+Content series ideas:
+  - "Soccer explained in 60 seconds" — TikTok/Reel format
+  - "The rules you need to know" — fun, graphic-forward explainer
+  - "Choose your player" — interactive content helping new fans find a player to follow
+  - "Youth soccer in [CITY]" — connect to local grassroots programs
+Conversion approach: Do not pitch a ticket or membership for 60+ days. Build affinity. Convert to low-barrier entry (free match, youth program, community event) first.
+Expected long-term conversion (12 months): 15–25% to paid product
+
+---
+
+EMAIL SEQUENCE TEMPLATES
+
+WELCOME SERIES (ALL NEW FANS) — 5-EMAIL SEQUENCE
+Email 1 (Day 0-1): Welcome + what to expect. No sell.
+Email 2 (Day 3): "Here's what we're about" — club/league brand story. Video content.
+Email 3 (Day 7): Segment-specific offer or content (personalized by acquisition source and segment)
+Email 4 (Day 14): Social proof — "Here's what our fans say." Testimonials, community angle.
+Email 5 (Day 21): First commercial ask — soft offer with urgency window.
+
+RE-ENGAGEMENT SEQUENCE (LAPSED FANS) — 4-EMAIL SEQUENCE
+Email 1: Personal acknowledgment. "We noticed you were back during the World Cup."
+Email 2: "Here's what's changed since you were last here." Club updates, new stadium features, new players.
+Email 3: Exclusive returning fan offer. Frame as "for fans who know us."
+Email 4: Last chance + survey. If no conversion, ask what they need to come back.
+
+---
+
+MARKET-SPECIFIC ACTIVATION CONSIDERATIONS
+
+NEW YORK / NEW JERSEY (MetLife Stadium — Final Host)
+Highest profile market. Media amplification is outsized. Activate aggressively with Final-specific creative. Latino diaspora community is key — Spanish-language activation is not optional, it is a priority. Key partnership opportunity: NY Red Bulls, NYCFC for club-level activation.
+
+LOS ANGELES (SoFi Stadium)
+Largest Hispanic/Latino market in North America. Strongest Mexico national team fanbase outside Mexico. Dual-language activation essential. LAFC and LA Galaxy both positioned to capture post-WC interest.
+
+MIAMI (Hard Rock Stadium)
+Latin American diaspora concentration — Argentine, Colombian, Venezuelan, Cuban communities all present. Highest bilingual fan base. Strong luxury/premium segment opportunity for hospitality and premium membership products.
+
+HOUSTON (NRG Stadium)
+Highest concentration of Mexican-American soccer fans in any host city. Mexican national team effectively a home team here. Strong grassroots soccer infrastructure — youth program tie-ins have outsized impact.
+
+DALLAS (AT&T Stadium)
+FC Dallas and North Texas SC as activation partners. Large Central American diaspora. Strong corporate sponsor market — Fortune 500 concentration in DFW creates premium hospitality demand.
+
+---
+
+CONTENT CALENDAR: FIRST 30 DAYS POST-TOURNAMENT
+
+Week 1: "The celebration continues" — World Cup recap content, player tribute posts, fan-generated content amplification
+Week 2: "What comes next" — domestic season preview, transfer news, squad announcements
+Week 3: "Come see us" — match day experience content, ticket campaign launch for Converted/Lapsed segments
+Week 4: "Join the community" — membership and loyalty program content, fan story features
+
+---

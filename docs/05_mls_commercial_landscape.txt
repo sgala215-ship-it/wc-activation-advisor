@@ -1,0 +1,97 @@
+DOCUMENT: MLS & North American Soccer — Commercial Landscape Post-2026
+SOURCE: Synthesized from MLS annual reports, Sports Business Journal, Sportico, Deloitte Sports
+RELEVANCE: Context for rights holder strategy, club partnerships, market sizing
+
+---
+
+MLS COMMERCIAL OVERVIEW
+
+Major League Soccer has undergone a dramatic commercial transformation in the 5 years preceding the 2026 World Cup:
+
+- MLS has grown to 30+ clubs, with expansion fees reaching $200M–$300M
+- Apple TV+ secured a 10-year, $2.5 billion global media rights deal beginning in 2023 — a landmark shift to streaming-first distribution
+- Average club valuation has increased from ~$300M (2020) to $600M–$1.2B+ (2025) for major market clubs
+- Inter Miami CF, driven by Lionel Messi's arrival in 2023, catalyzed a global awareness spike for the league that is projected to extend through 2026
+
+The Apple TV deal fundamentally changed MLS's commercial model: guaranteed revenue from streaming rights regardless of ratings creates stability, while global distribution creates new international fan acquisition opportunities unprecedented for a North American domestic soccer league.
+
+POST-2026 OPPORTUNITY FOR MLS CLUBS
+
+The 2026 World Cup represents the largest organic fan acquisition event in MLS history. The parallels to 1994 are instructive:
+- The 1994 World Cup in the USA drove MLS's founding and initial audience base
+- The 1994 wave of new soccer fans became the parents who enrolled children in youth soccer in the late 1990s and 2000s — creating the talent base for today's USMNT
+- 2026 is expected to produce a second generational wave: new fans who will form the core audience for the next decade of domestic soccer growth
+
+MLS clubs in host cities have first-mover advantage in converting World Cup fans to club supporters. The key is speed of activation and depth of community integration.
+
+CLUB PARTNERSHIP LANDSCAPE
+
+Rights holder federation-to-club activation channels:
+- Official "Path to the Club" programs — tournament fans receive club trial experiences
+- Co-branded content featuring MLS players who participated in the World Cup
+- Data sharing agreements between federation and clubs (subject to consent and privacy compliance)
+- Youth academy pipeline programs — "World Cup inspired" registration campaigns
+- Corporate sponsor pass-through — federation sponsors with local market presence activate through club partnerships
+
+Typical revenue share model: Federation captures national rights and international broadcast. Clubs capture local commercial rights (stadium naming, local sponsorship, match day). The post-tournament period is one of the few windows where federation and club commercial interests fully align — both benefit from converting the same fan base.
+
+---
+
+WOMEN'S SOCCER COMMERCIAL TRAJECTORY
+
+The NWSL (National Women's Soccer League) is the fastest-growing professional sports league in North America by attendance growth (2022–2025). The 2023 Women's World Cup in Australia/New Zealand produced a US viewership record for a Women's World Cup match.
+
+Post-2026 opportunity: The 2027 FIFA Women's World Cup is scheduled for Brazil. Rights holders should treat the 2026 men's World Cup as an activation platform to grow the women's game — particularly given the demonstrated fan crossover between NWSL and USWNT audiences.
+
+NWSL commercial benchmarks (2025):
+- Average attendance: 9,500–14,000 per match for top clubs
+- Broadcast rights: CBS/Paramount+, ESPN/ABC — mainstream network presence
+- Expansion teams commanding $150M+ entry fees
+- Sponsorship revenue growing 40%+ year-over-year at league level
+
+---
+
+YOUTH SOCCER AS COMMERCIAL LEVER
+
+The United States has 30+ million registered youth soccer players. This demographic represents:
+- The highest-lifetime-value fan acquisition channel for domestic soccer
+- The primary vehicle for generational fan loyalty building
+- A corporate sponsor priority (family brands, health brands, education brands)
+
+Post-World Cup youth activation playbook:
+1. "World Cup inspired" youth registration campaigns — club academies offering free trials to World Cup-watching families
+2. Player ambassador programs — World Cup participants visiting youth clubs in their home markets
+3. School program partnerships — curriculum-based soccer education tied to World Cup learning moments
+4. Family membership packages — priced and designed to convert the World Cup family viewing experience into a regular match day habit
+
+Historical data: Youth soccer registration increases 25–40% in the 6 months following a World Cup held in North America. Rights holders who have grassroots infrastructure in place capture this wave; those who don't lose it to competing sports.
+
+---
+
+COMPETITIVE LANDSCAPE FOR FAN ATTENTION
+
+Post-2026, rights holders will compete for fan attention against:
+- NFL season (begins September — immediate competition for casual sports fan attention)
+- NBA and NHL seasons (October start — further fan fragmentation)
+- College football (August–January — major competitor in non-coastal markets)
+- Streaming entertainment (Netflix, Disney+, Apple TV+ all competing for living room time)
+
+The 30-day post-tournament window (July–August) is a relative "off-season" for competing US sports — a rare opportunity for soccer to own the sports conversation. This window narrows dramatically by September when NFL dominates.
+
+Speed of activation is therefore the single most important variable. Rights holders who wait until the domestic season starts to activate have already missed the best window.
+
+---
+
+TECHNOLOGY & DATA INFRASTRUCTURE
+
+Rights holders with mature data infrastructure will outperform peers in post-tournament monetization:
+
+CDPs (Customer Data Platforms): Rights holders with unified fan profiles (ticketing + CRM + digital behavior + merchandise) can execute precise segmentation from day one. Those still operating in data silos will lose 4–6 weeks building the audience view before they can activate.
+
+Personalization at scale: Machine learning-driven next-best-action engines outperform broadcast email by 35–55% in conversion rate. Rights holders should have this infrastructure in place before the tournament ends, not after.
+
+Privacy compliance: CCPA (California), state-level privacy laws, and emerging federal regulation all require consent-based data architecture. Any fan acquired through the World Cup period must have explicit consent captured at point of acquisition. Non-compliance risk is highest in the peak acquisition window when volume spikes 3–5x above baseline.
+
+Real-time analytics: Rights holders with real-time dashboards tracking fan acquisition, engagement scoring, and campaign performance can optimize activation in-flight. Static weekly reporting cannot respond fast enough in the 30-day peak window.
+
+---

@@ -1,0 +1,107 @@
+DOCUMENT: Data Governance & Privacy Compliance — Sports Rights Holders
+SOURCE: IAPP Privacy Resource Center, GDPR.eu, California AG CCPA guidance, Two Circles governance frameworks
+RELEVANCE: Compliance questions, data strategy advisory mode
+
+---
+
+PRIVACY LANDSCAPE FOR NORTH AMERICAN SPORTS RIGHTS HOLDERS
+
+The 2026 World Cup will produce the largest single fan data acquisition event in the history of North American sports. Managing this data responsibly — and compliantly — is a commercial and legal imperative.
+
+KEY REGULATIONS AFFECTING FAN DATA
+
+CCPA / CPRA (California Consumer Privacy Act / California Privacy Rights Act)
+Applies to: Any rights holder with California-based fans (effectively all major sports properties)
+Key requirements:
+- Right to know: Fans can request what data you hold on them
+- Right to delete: Fans can request erasure of their data
+- Right to opt-out of sale: Fans must be able to opt out of data sharing with third parties
+- Sensitive data: Location, health, race, and biometric data require explicit opt-in
+- Enforcement: California AG + new California Privacy Protection Agency (CPPA)
+- Penalty: Up to $7,500 per intentional violation
+
+APPLICABLE STATE LAWS (2025–2026)
+As of 2025, 15+ US states have enacted comprehensive privacy legislation. Rights holders operating nationally must build to the most restrictive common denominator. Texas, Colorado, Virginia, Connecticut, and Florida all have active privacy laws that mirror CCPA principles.
+
+GDPR (General Data Protection Regulation)
+Applies to: Any rights holder processing data of EU residents — including fans who traveled to the World Cup from Europe
+Key difference from US law: Opt-IN required for marketing communications (not opt-out). Lawful basis for processing must be documented. Data minimization principle applies — collect only what you need.
+Transfers: Fan data from EU residents cannot be freely transferred to US servers without appropriate safeguards (Standard Contractual Clauses or adequacy decision).
+
+CASL (Canada's Anti-Spam Legislation)
+Applies to: Communications to Canadian fans acquired at World Cup Canada matches (Vancouver, Toronto)
+Key requirement: Express consent required for commercial electronic messages. Implied consent has a strict 2-year window. Consent records must be maintained.
+
+---
+
+CONSENT ARCHITECTURE FOR WORLD CUP FAN ACQUISITION
+
+Best practice consent framework for tournament period registration:
+
+1. CLEAR PURPOSE STATEMENT: "By registering, you agree to receive match updates and exclusive offers from [ORGANIZATION]. We will also share your information with our official partners to bring you relevant offers. You can unsubscribe at any time."
+
+2. GRANULAR CONSENT OPTIONS (recommended, not always required):
+  ☐ Match updates and news (functional)
+  ☐ Commercial offers and promotions from [ORGANIZATION]
+  ☐ Offers from our official commercial partners
+  ☐ Third-party marketing partners
+
+3. CONSENT RECORD-KEEPING: Timestamp, IP address, consent text version, and channel must be stored per record. In the event of dispute or regulatory inquiry, the consent record is the rights holder's defense.
+
+4. PREFERENCE CENTER: All marketing communications must link to a preference center where fans can manage their consents. This is legally required under GDPR and CASL; best practice under CCPA.
+
+---
+
+DATA MINIMIZATION PRINCIPLES
+
+Collect only what you need for stated purposes. Common over-collection at sports events:
+- Date of birth (needed for age verification; month/year sufficient for most uses)
+- Phone number (valuable but increases compliance burden; make optional unless SMS is part of UX)
+- Location tracking (require explicit opt-in; battery/GPS drain increases opt-out rate)
+
+For post-tournament activation, the minimum viable dataset is:
+- Email (required)
+- First name (personalization)
+- Market/city (segmentation)
+- How they heard about / engagement source (attribution)
+- Consent timestamp and version
+
+Everything else (demographics, interests, behavioral data) should be collected progressively through the relationship, not at point of acquisition when friction reduces conversion.
+
+---
+
+SPONSOR DATA SHARING — COMPLIANCE FRAMEWORK
+
+One of the highest-risk areas for rights holders is sharing fan data with sponsors. Three compliant models:
+
+1. CONSENT-BASED CO-REGISTRATION
+Fan explicitly consents to receive communications from named sponsor at point of registration. Sponsor's name must be specifically listed — generic "partners" language is insufficient under GDPR and increasingly challenged under US law.
+Risk level: Low (with correct implementation)
+
+2. ANONYMIZED AUDIENCE INSIGHTS
+Rights holder shares aggregate, de-identified insights with sponsor (e.g., "your activation reached 45,000 fans, 38% female, 55% 25–44"). No PII transfer. No consent required.
+Risk level: Very low
+Limitation: Does not allow sponsor to target individuals directly
+
+3. CLEAN ROOM / PRIVACY-PRESERVING MATCHING
+Rights holder and sponsor both bring their first-party data into a privacy-preserving environment (e.g., Snowflake Data Clean Room, Google Ads Data Hub) where records are matched without either party seeing the other's raw data.
+Risk level: Low (with correct implementation)
+Advantage: Allows sponsor to understand overlap with their customer base without PII transfer. Increasingly preferred by data-mature sponsors.
+
+PROHIBITED MODEL — DO NOT DO:
+Sharing raw fan PII (names, emails, phone numbers) with sponsors without explicit, specific consent to that named sponsor. This violates GDPR, is increasingly challenged under US state laws, and exposes rights holders to significant regulatory and reputational risk.
+
+---
+
+RETENTION AND DELETION POLICIES
+
+Best practice data retention for sports fan records:
+- Active fan (engaged in last 24 months): Retain full profile
+- Inactive fan (no engagement in 24–36 months): Suppress from marketing, retain for analytics with anonymization
+- Opted-out fan: Suppress immediately from all marketing; retain suppression record to prevent re-addition
+- Deletion request: Full erasure within 30 days (GDPR: within 30 days; CCPA: within 45 days)
+- Children's data (under 13): Do not collect without verifiable parental consent. COPPA applies to US properties.
+
+POST-TOURNAMENT SPECIFIC CONSIDERATION: Fan acquisition spikes mean deletion request volumes will also spike 12–18 months post-tournament as acquired fans who never converted decide to disengage. Ensure deletion workflow is automated and scalable.
+
+---
