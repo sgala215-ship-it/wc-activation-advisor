@@ -192,9 +192,9 @@ st.markdown(
 MODE_QUESTIONS = {
     "🎯 Strategy & Playbooks": [
         "We have 90 days post-tournament. What's the highest ROI activation sequence?",
+        "What does our 90-day activation calendar look like?",
         "Which sponsor categories are most at risk of not renewing?",
         "How should we prioritize our 30-day plan across markets?",
-        "What does our 90-day activation calendar look like?",
     ],
     "👥 Fan Intelligence": [
         "Which fan segments should we prioritize and why?",
@@ -203,10 +203,10 @@ MODE_QUESTIONS = {
         "What's the season ticket conversion rate by segment?",
     ],
     "📣 Campaign Ideation": [
+        "What campaigns should I use to activate fans signed up during the watch party we hosted?",
         "Generate a 3-email re-engagement sequence for lapsed fans",
         "Write a season ticket campaign for converted fans",
         "What content strategy works best for new-to-soccer fans?",
-        "Create a sponsor co-branded campaign concept for our automotive partner",
     ],
 }
 
