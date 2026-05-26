@@ -176,11 +176,114 @@ st.markdown(
     unsafe_allow_html=True
 )
 
+# ── Onboarding instructions ───────────────────────────────────────────────────
+
+st.markdown("""
+<style>
+  .onboard-wrap { max-width: 900px; margin: 8px auto 4px; }
+  .onboard-steps {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    margin-bottom: 10px;
+  }
+  @media (max-width: 640px) { .onboard-steps { grid-template-columns: 1fr; } }
+  .onboard-step {
+    background: #fff;
+    border: 0.5px solid #E5E7EB;
+    border-radius: 12px;
+    padding: 14px 16px;
+  }
+  .onboard-step-num {
+    width: 22px; height: 22px;
+    background: #EAF3DE; color: #0F6E56;
+    border-radius: 50%; font-size: 11px; font-weight: 600;
+    display: flex; align-items: center; justify-content: center;
+    margin-bottom: 8px;
+  }
+  .onboard-step-title { font-size: 13px; font-weight: 500; color: #111827; margin: 0 0 3px; }
+  .onboard-step-desc  { font-size: 12px; color: #6B7280; margin: 0; line-height: 1.5; }
+  .onboard-modes {
+    background: #fff; border: 0.5px solid #E5E7EB;
+    border-radius: 12px; padding: 14px 18px; margin-bottom: 10px;
+  }
+  .onboard-modes-title {
+    font-size: 11px; font-weight: 500; color: #6B7280;
+    text-transform: uppercase; letter-spacing: 0.06em; margin: 0 0 10px;
+  }
+  .mode-row {
+    display: flex; align-items: flex-start; gap: 12px;
+    padding: 7px 0; border-bottom: 0.5px solid #F3F4F6;
+  }
+  .mode-row:last-child { border-bottom: none; padding-bottom: 0; }
+  .mode-icon { font-size: 16px; flex-shrink: 0; width: 24px; text-align: center; margin-top: 1px; }
+  .mode-info-title { font-size: 13px; font-weight: 500; color: #111827; margin: 0 0 1px; }
+  .mode-info-desc  { font-size: 12px; color: #6B7280; margin: 0; line-height: 1.4; }
+  .onboard-tip {
+    background: #EAF3DE; border: 0.5px solid #1D9E7533;
+    border-radius: 10px; padding: 10px 14px;
+    display: flex; align-items: flex-start; gap: 10px; margin-bottom: 4px;
+  }
+  .onboard-tip-icon { font-size: 14px; flex-shrink: 0; margin-top: 2px; }
+  .onboard-tip-text { font-size: 12px; color: #0F6E56; margin: 0; line-height: 1.5; }
+</style>
+<div class="onboard-wrap">
+  <div class="onboard-steps">
+    <div class="onboard-step">
+      <div class="onboard-step-num">1</div>
+      <p class="onboard-step-title">Select your organization</p>
+      <p class="onboard-step-desc">Choose your org type and team below. Data and advice are filtered to your specific market and role.</p>
+    </div>
+    <div class="onboard-step">
+      <div class="onboard-step-num">2</div>
+      <p class="onboard-step-title">Pick an advisory mode</p>
+      <p class="onboard-step-desc">Strategy, Fan Intelligence, or Campaign Ideation — each surfaces different insights for your context.</p>
+    </div>
+    <div class="onboard-step">
+      <div class="onboard-step-num">3</div>
+      <p class="onboard-step-title">Ask a question</p>
+      <p class="onboard-step-desc">Click a suggested question or type your own. The advisor uses your fan data and activation research to respond.</p>
+    </div>
+  </div>
+  <div class="onboard-modes">
+    <p class="onboard-modes-title">What each mode does</p>
+    <div class="mode-row">
+      <div class="mode-icon">🎯</div>
+      <div>
+        <p class="mode-info-title">Strategy &amp; Playbooks</p>
+        <p class="mode-info-desc">30/60/90-day activation sequencing, sponsor renewal timing, and market prioritization.</p>
+      </div>
+    </div>
+    <div class="mode-row">
+      <div class="mode-icon">👥</div>
+      <div>
+        <p class="mode-info-title">Fan Intelligence</p>
+        <p class="mode-info-desc">Segment breakdowns, churn risk, LTV scoring — filtered to your team's market.</p>
+      </div>
+    </div>
+    <div class="mode-row">
+      <div class="mode-icon">📣</div>
+      <div>
+        <p class="mode-info-title">Campaign Ideation</p>
+        <p class="mode-info-desc">Email sequences, content strategies, and campaign concepts for specific fan segments.</p>
+      </div>
+    </div>
+  </div>
+  <div class="onboard-tip">
+    <div class="onboard-tip-icon">💡</div>
+    <p class="onboard-tip-text">
+      <strong>Recommended workflow:</strong> Start with Strategy to get your 90-day plan → switch to Fan Intelligence to prioritize segments → use Campaign Ideation to generate the actual content.
+    </p>
+  </div>
+</div>
+""", unsafe_allow_html=True)
+
 st.divider()
 
-# ── Role + Team selectors (always visible — top of page) ─────────────────────
+# ── Role + Team selectors ─────────────────────────────────────────────────────
 
 st.markdown('<p class="sg-label">Your organization</p>', unsafe_allow_html=True)
+
 
 col_role, col_team = st.columns(2)
 
