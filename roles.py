@@ -8,23 +8,22 @@ ROLES = {
     "⚽  Soccer Club": {
         "id":          "soccer_club",
         "description": "Single club activation — ticket sales, membership, fan loyalty",
-        "teams": [
-            "Northeast Club",
-            "Southeast Club",
-            "Midwest Club",
-            "South Club",
-            "West Coast Club",
-            "Mountain West Club",
-        ],
-        "market_map": {
-            "Northeast Club":    "New York",
-            "Southeast Club":    "Miami",
-            "Midwest Club":      "Chicago",
-            "South Club":        "Houston",
-            "West Coast Club":   "Los Angeles",
-            "Mountain West Club":"Denver",
-        },
-        "questions": {
+"teams": [
+    "Northeast Club",
+    "Southeast Club",
+    "Midwest Club",
+    "South Club",
+    "West Coast Club",
+    "Mountain West Club",
+],
+"market_map": {
+    "Northeast Club":     "New York",
+    "Southeast Club":     "Miami",
+    "Midwest Club":       "Chicago",
+    "South Club":         "Houston",
+    "West Coast Club":    "Los Angeles",
+    "Mountain West Club": "Denver",
+},        "questions": {
             "🎯  Strategy & Playbooks": [
                 "We have 90 days post-tournament. What's the highest ROI activation sequence for our club?",
                 "What does our 90-day activation calendar look like?",
