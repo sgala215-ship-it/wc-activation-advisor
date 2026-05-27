@@ -78,6 +78,22 @@ st.markdown("""
     font-weight: 500;
   }
 
+  /* Start over button — subtle, not primary */
+  [data-testid="stButton"] button[kind="secondary"] {
+    background: transparent;
+    color: #6B7280;
+    border: 0.5px solid #E5E7EB;
+    font-size: 12px;
+    padding: 4px 12px;
+    min-height: 32px;
+    width: auto !important;
+  }
+  [data-testid="stButton"] button[kind="secondary"]:hover {
+    background: #FEE2E2;
+    color: #991B1B;
+    border-color: #FCA5A5;
+  }
+
   /* Question chips */
   .stButton > button {
     white-space: normal !important;
@@ -301,6 +317,7 @@ with col_team:
         label = "Your team",
         options = role_config["teams"],
         index = 0,
+        help = "Select a region to filter fan data and tailor advice to that market. League and sponsor roles see all markets combined.",
     )
 
 # Clear chat on role/team change
@@ -367,6 +384,14 @@ for i, q in enumerate(role_config["questions"][mode]):
     if cols[i % 2].button(q, key=f"sq_{i}_{role_label}_{team_name}_{mode}"):
         st.session_state["pending_question"] = q
 
+# ── Start over button ────────────────────────────────────────────────────────
+
+if st.session_state.messages:
+    if st.button("↩  Start over", key="reset_chat"):
+        st.session_state.messages = []
+        st.session_state.pending_question = None
+        st.rerun()
+
 st.divider()
 
 # ── Data expander ─────────────────────────────────────────────────────────────
@@ -379,13 +404,13 @@ with st.expander(f"📊  {team_name} fan data", expanded=False):
         seg.columns = ["Segment","Fans","Avg LTV ($)","Avg Engagement","ST Conv %"]
         seg["Avg LTV ($)"] = seg["Avg LTV ($)"].apply(lambda x: f"${x:.0f}")
         seg["ST Conv %"]   = seg["ST Conv %"].apply(lambda x: f"{x:.1f}%")
-        st.dataframe(seg, hide_index=True, use_container_width=True)
+        st.dataframe(seg, hide_index=True, width='stretch')
 
     with tab2:
         churn_df = df_team["churn_risk"].value_counts().reset_index()
         churn_df.columns = ["Churn Risk","Fan Count"]
         churn_df["% of Total"] = (churn_df["Fan Count"] / len(df_team) * 100).round(1).astype(str) + "%"
-        st.dataframe(churn_df, hide_index=True, use_container_width=True)
+        st.dataframe(churn_df, hide_index=True, width='stretch')
 
     with tab3:
         ch_df = df_team["acquisition_channel"].value_counts().reset_index()
@@ -394,7 +419,7 @@ with st.expander(f"📊  {team_name} fan data", expanded=False):
             df_team.groupby("acquisition_channel")["predicted_ltv_usd"]
             .mean().round(0).astype(int).apply(lambda x: f"${x}")
         )
-        st.dataframe(ch_df, hide_index=True, use_container_width=True)
+        st.dataframe(ch_df, hide_index=True, width='stretch')
 
 # ── Chat ──────────────────────────────────────────────────────────────────────
 
