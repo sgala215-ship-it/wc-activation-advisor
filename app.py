@@ -427,18 +427,20 @@ role_ctx       = role_config["system_addendum"]
 role_ctx      += "\n\n" + build_role_context(role_config, team_name, market)
 market_snippet = build_market_snippet(df_team, market or "All markets", team_name)
 
+# Chat input at top of chat section — prevents page from scrolling to bottom on load
+prompt     = st.session_state.pending_question
+st.session_state.pending_question = None
+chat_input = st.chat_input(f"Ask about {team_name} fan activation, campaigns, or strategy...")
+if chat_input:
+    prompt = chat_input
+
+# Render chat history below the input
 for msg in st.session_state.messages:
     avatar = "⚽" if msg["role"] == "assistant" else "👤"
     with st.chat_message(msg["role"], avatar=avatar):
         st.markdown(msg["content"])
         if msg["role"] == "assistant" and "sources" in msg:
             st.markdown(source_badges(msg["sources"]), unsafe_allow_html=True)
-
-prompt     = st.session_state.pending_question
-st.session_state.pending_question = None
-chat_input = st.chat_input(f"Ask about {team_name} fan activation, campaigns, or strategy...")
-if chat_input:
-    prompt = chat_input
 
 if prompt:
     mode_context = {
