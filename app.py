@@ -164,6 +164,7 @@ all_fans = load_fans()
 
 if "messages"         not in st.session_state: st.session_state.messages         = []
 if "pending_question" not in st.session_state: st.session_state.pending_question = None
+if "btn_counter"       not in st.session_state: st.session_state.btn_counter       = 0
 if "last_role"        not in st.session_state: st.session_state.last_role        = None
 if "last_team"        not in st.session_state: st.session_state.last_team        = None
 
@@ -381,8 +382,9 @@ st.markdown('<p class="sg-label" style="margin-top:12px">Suggested questions</p>
             unsafe_allow_html=True)
 cols = st.columns(2)
 for i, q in enumerate(role_config["questions"][mode]):
-    if cols[i % 2].button(q, key=f"sq_{i}_{role_label}_{team_name}_{mode}"):
+    if cols[i % 2].button(q, key=f"sq_{i}_{role_label}_{team_name}_{mode}_{st.session_state.btn_counter}"):
         st.session_state["pending_question"] = q
+        st.session_state.btn_counter += 1
 
 # ── Start over button ────────────────────────────────────────────────────────
 
@@ -476,193 +478,3 @@ if prompt:
 
 # ── Empty state / onboarding ──────────────────────────────────────────────────
 
-if not st.session_state.messages:
-    st.markdown(f"""
-    <style>
-      .onboard-wrap {{
-        max-width: 720px;
-        margin: 0 auto;
-        padding: 8px 0 32px;
-      }}
-      .onboard-hero {{
-        text-align: center;
-        padding: 32px 20px 24px;
-        background: #fff;
-        border: 0.5px solid #E5E7EB;
-        border-radius: 14px;
-        margin-bottom: 16px;
-      }}
-      .onboard-hero-icon {{ font-size: 40px; margin-bottom: 10px; }}
-      .onboard-hero-title {{
-        font-size: 18px;
-        font-weight: 500;
-        color: #111827;
-        margin: 0 0 6px;
-      }}
-      .onboard-hero-sub {{
-        font-size: 13px;
-        color: #6B7280;
-        margin: 0;
-        line-height: 1.5;
-      }}
-      .onboard-steps {{
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        gap: 10px;
-        margin-bottom: 16px;
-      }}
-      @media (max-width: 640px) {{
-        .onboard-steps {{ grid-template-columns: 1fr; }}
-      }}
-      .onboard-step {{
-        background: #fff;
-        border: 0.5px solid #E5E7EB;
-        border-radius: 12px;
-        padding: 16px;
-      }}
-      .onboard-step-num {{
-        width: 24px;
-        height: 24px;
-        background: #EAF3DE;
-        color: #0F6E56;
-        border-radius: 50%;
-        font-size: 12px;
-        font-weight: 600;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        margin-bottom: 10px;
-      }}
-      .onboard-step-title {{
-        font-size: 13px;
-        font-weight: 500;
-        color: #111827;
-        margin: 0 0 4px;
-      }}
-      .onboard-step-desc {{
-        font-size: 12px;
-        color: #6B7280;
-        margin: 0;
-        line-height: 1.5;
-      }}
-      .onboard-modes {{
-        background: #fff;
-        border: 0.5px solid #E5E7EB;
-        border-radius: 12px;
-        padding: 16px 20px;
-        margin-bottom: 16px;
-      }}
-      .onboard-modes-title {{
-        font-size: 12px;
-        font-weight: 500;
-        color: #6B7280;
-        text-transform: uppercase;
-        letter-spacing: 0.06em;
-        margin: 0 0 12px;
-      }}
-      .mode-row {{
-        display: flex;
-        align-items: flex-start;
-        gap: 12px;
-        padding: 8px 0;
-        border-bottom: 0.5px solid #F3F4F6;
-      }}
-      .mode-row:last-child {{ border-bottom: none; }}
-      .mode-icon {{
-        font-size: 18px;
-        flex-shrink: 0;
-        width: 28px;
-        text-align: center;
-      }}
-      .mode-info-title {{
-        font-size: 13px;
-        font-weight: 500;
-        color: #111827;
-        margin: 0 0 2px;
-      }}
-      .mode-info-desc {{
-        font-size: 12px;
-        color: #6B7280;
-        margin: 0;
-        line-height: 1.4;
-      }}
-      .onboard-tip {{
-        background: #EAF3DE;
-        border: 0.5px solid #1D9E7533;
-        border-radius: 10px;
-        padding: 12px 16px;
-        display: flex;
-        align-items: flex-start;
-        gap: 10px;
-      }}
-      .onboard-tip-icon {{ font-size: 16px; flex-shrink: 0; margin-top: 1px; }}
-      .onboard-tip-text {{ font-size: 12px; color: #0F6E56; margin: 0; line-height: 1.5; }}
-    </style>
-
-    <div class="onboard-wrap">
-
-      <!-- Hero -->
-      <div class="onboard-hero">
-        <div class="onboard-hero-icon">⚽</div>
-        <p class="onboard-hero-title">Welcome to the World Cup Activation Advisor</p>
-        <p class="onboard-hero-sub">
-          AI-powered commercial intelligence for sports organizations.<br>
-          Get activation strategy, fan insights, and campaign ideas tailored to your team — in seconds.
-        </p>
-      </div>
-
-      <!-- 3 steps -->
-      <div class="onboard-steps">
-        <div class="onboard-step">
-          <div class="onboard-step-num">1</div>
-          <p class="onboard-step-title">Select your organization</p>
-          <p class="onboard-step-desc">Choose your org type and team above. The advisor filters data to your specific market and adjusts its strategy to your context.</p>
-        </div>
-        <div class="onboard-step">
-          <div class="onboard-step-num">2</div>
-          <p class="onboard-step-title">Pick an advisory mode</p>
-          <p class="onboard-step-desc">Choose Strategy, Fan Intelligence, or Campaign Ideation depending on what you need. Each mode surfaces different insights.</p>
-        </div>
-        <div class="onboard-step">
-          <div class="onboard-step-num">3</div>
-          <p class="onboard-step-title">Ask a question</p>
-          <p class="onboard-step-desc">Click a suggested question or type your own. The advisor draws on your fan data, sponsor benchmarks, and activation research to answer.</p>
-        </div>
-      </div>
-
-      <!-- Modes explained -->
-      <div class="onboard-modes">
-        <p class="onboard-modes-title">What each mode does</p>
-        <div class="mode-row">
-          <div class="mode-icon">🎯</div>
-          <div>
-            <p class="mode-info-title">Strategy & Playbooks</p>
-            <p class="mode-info-desc">30/60/90-day activation sequencing, sponsor renewal timing, market prioritization, and commercial planning frameworks.</p>
-          </div>
-        </div>
-        <div class="mode-row">
-          <div class="mode-icon">👥</div>
-          <div>
-            <p class="mode-info-title">Fan Intelligence</p>
-            <p class="mode-info-desc">Segment breakdowns, churn risk analysis, LTV scoring, and conversion benchmarks — all filtered to your team's market.</p>
-          </div>
-        </div>
-        <div class="mode-row">
-          <div class="mode-icon">📣</div>
-          <div>
-            <p class="mode-info-title">Campaign Ideation</p>
-            <p class="mode-info-desc">Ready-to-use email sequences, content strategies, and campaign concepts tailored to specific fan segments and your sport.</p>
-          </div>
-        </div>
-      </div>
-
-      <!-- Tip -->
-      <div class="onboard-tip">
-        <div class="onboard-tip-icon">💡</div>
-        <p class="onboard-tip-text">
-          <strong>Pro tip:</strong> Start with Strategy mode to get your 90-day activation plan, then switch to Fan Intelligence to understand which segments to prioritize, then use Campaign Ideation to generate the actual content. The advisor remembers your conversation so you can build on previous answers.
-        </p>
-      </div>
-
-    </div>
-    """, unsafe_allow_html=True)
